@@ -1,0 +1,717 @@
+{
+  "settings": {
+    "name": "IWM",
+    "currentPage": "participate.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.3",
+    "siteFonts": [],
+    "uniqCompNum": 28,
+    "versionPublish": "4.8.3",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Help</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#msg-box4-8\">About Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#msg-box4-9\">Speakers</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"participate.html#form1-r\">Participate</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"participate.html#form1-r\">Schedule</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#contacts2-l\">Reach Us</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/iwm-logo-1168x482.png",
+              "class": "",
+              "height": 128,
+              "alt": "IWM WORKSHOP",
+              "link": "index.html",
+              "title": "IWM WORKSHOP",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-n"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/hbcse-photo-2000x1321.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.2"
+          },
+          "title": "INDIAN WOMEN AND MATHEMATICS (IWM)<br>",
+          "text": "Regional Workshop on Research and Opportunities<br>Homi Bhabha Centre For Science &amp; Education (HBCSE)<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-6",
+          "_styles": {
+            "H1": {
+              "color": "#cfeff6",
+              "font-size": "36px",
+              "font-family": "'Roboto Slab', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700"
+            },
+            "P": {
+              "font-size": "32px",
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": "16",
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/iwm-logo-1168x482.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "About IWM",
+          "text": "<p>Indian Women and Mathematics (IWM) is a collective of mathematicians that has been in existence since 2009. Its objective over the years has been to encourage more women to pursue higher education in mathematics, and to provide an exposure and environment that enables them to take up careers in mathematics. In its pursuit to fulfil the objective, IWM organizes various workshops and conferences that focus on presentation of original research work and discussion about career opportunities in mathematics.</p><p>For more information, visit IWM website.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://sites.google.com/site/iwmmath/\" data-toolbar=\"-mbrBtnMove\">IWM Website</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-8",
+          "_styles": {
+            ".lead P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "11",
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#dddddd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/cwm-logo-475x464.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "About CWM",
+          "text": "<p>Committee for Women in Mathematics (CWM) is the committee of the International Mathematical Union (IMU) concerned with issues related to women in mathematics worldwide.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://www.mathunion.org/cwm\" data-toolbar=\"-mbrBtnMove\">CWM Website</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            ".lead P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box4-9"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": false,
+            "showBio": false,
+            "count": "1",
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "Speakers",
+          "items": [
+            {
+              "authorName": "ABANOUB S.",
+              "authorBio": "User",
+              "text": "<i><b>\"Before I came here I was confused about this subject. Having listened to your lecture I am still confused. But on a higher level.\r\"</b></i>"
+            },
+            {
+              "authorName": "SUFFIAN A.",
+              "authorBio": "User",
+              "text": "<em>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</em>"
+            },
+            {
+              "authorName": "JHOLLMAN C.",
+              "authorBio": "User",
+              "text": "<em>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</em>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-j",
+          "testimonial": [
+            {
+              "authorName": "ABANOUB S.",
+              "authorBio": "User",
+              "text": "<i><b>\"Before I came here I was confused about this subject. Having listened to your lecture I am still confused. But on a higher level.\r\"</b></i>"
+            }
+          ],
+          "_styles": {
+            ".card-block": {
+              "text-align": "center"
+            },
+            ".card-block B": {
+              "font-size": "22px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/user-outline-72990-512x512.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/user-outline-72990-512x512.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/user-outline-72990-512x512.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/feature-websites.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "Kapil Paranjape,<br>IISER Mohali",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Rajani Joshi,<br>IIT Bombay",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Sachi Srivastava,<br>Delhi University",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Mousomi Bhakta, IISER Pune",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-e"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": false,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "3",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/user-outline-72990-512x512.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/user-outline-72990-512x512.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/user-outline-72990-512x512.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/feature-websites.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "Mousomi Bhakta,<br>IISER Pune",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Nitin Nitsure,<br>TIFR Bombay",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Riddhi Shah,<br>JNU",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Mousomi Bhakta, IISER Pune",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-f"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#dddddd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Participate",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "Be",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-o"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "HBCSE",
+              "placeId": "ChIJBxGwUpDI5zsRyEicyAEfwNM",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>Homi Bhabha Centre for Science Education,\n<br>V. N. Purav Marg, Mankhurd,\n<br>Mumbai, 400088 INDIA<strong><br></strong><br><strong>Contacts</strong><br>Email: support@hbcse.tifr.res.in\n<br>Phone: +91 (022) 2507 2304<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"https://mobirise.com/\">IWM</a></li><li><a href=\"https://mobirise.com/mobirise-free-win.zip\">CWM</a></li><li><a href=\"http://www.hbcse.tifr.res.in/\">HBCSE</a></li></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-l"
+        }
+      ]
+    },
+    "participate.html": {
+      "settings": {
+        "title": "Participate",
+        "order": 1,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Participation",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\">Contact Us</a>",
+          "form": {
+            "action": "sohamdighe228@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-r"
+        },
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Help</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#msg-box4-8\">About Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#msg-box4-9\">Speakers</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"participate.html#form1-r\">Participate</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"participate.html#form1-r\">Schedule</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#contacts2-l\">Reach Us</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/iwm-logo-1168x482.png",
+              "class": "",
+              "height": 128,
+              "alt": "IWM WORKSHOP",
+              "link": "index.html",
+              "title": "IWM WORKSHOP",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-p"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "HBCSE",
+              "placeId": "ChIJBxGwUpDI5zsRyEicyAEfwNM",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>Homi Bhabha Centre for Science Education,\n<br>V. N. Purav Marg, Mankhurd,\n<br>Mumbai, 400088 INDIA<strong><br></strong><br><strong>Contacts</strong><br>Email: support@hbcse.tifr.res.in\n<br>Phone: +91 (022) 2507 2304<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"https://mobirise.com/\">IWM</a></li><li><a href=\"https://mobirise.com/mobirise-free-win.zip\">CWM</a></li><li><a href=\"http://www.hbcse.tifr.res.in/\">HBCSE</a></li></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-q"
+        }
+      ]
+    }
+  }
+}
